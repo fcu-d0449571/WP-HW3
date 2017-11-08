@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>temperature</title>
+<script type="text/javascript">
+  var celsius;
+  var celsiusOut;
+  var fahrenheit;
+  celsius=window.prompt("請輸入攝氏溫度~");
+  
+  celsiusOut=parseInt(celsius);
+  document.writeln("<h1>攝氏溫度:"+celsiusOut+"</h1>");
+  document.writeln("<h1>華氏溫度:"+temperatureCtoF(fahrenheit)+"</h1>");
+  function temperatureCtoF(x)
+  {
+    x=9/5*celsiusOut+32;
+    return x;
+  }
+
+  </script>
+  </head>
+ <body></body>
+</html>
